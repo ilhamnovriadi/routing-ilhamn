@@ -3,7 +3,8 @@ import { Card } from "./Card";
 
 const MENU = [
   { id: 1, label: "Mulai Belajar", nav: "/materi" },
-  { id: 2, label: "Hubungi Kami", nav: "/kontak" },
+  { id: 2, label: "Counter", nav: "/counter" },
+  { id: 3, label: "Hubungi Kami", nav: "/kontak" },
 ];
 function Home() {
   return (

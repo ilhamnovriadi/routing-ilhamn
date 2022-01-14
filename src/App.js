@@ -3,6 +3,7 @@ import Home from "./comps/Home";
 import Materis from "./comps/Materis";
 import Materi from "./comps/Materi";
 import Kontak from "./comps/Kontak";
+import Counter from "./comps/Counter";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { Header } from "./comps/Header";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/materi" element={<Materis />} />
           <Route path="/materi/:id" element={<Materi />} />
+          <Route path="/counter" element={<Counter />} />
           <Route path="/kontak" element={<Kontak />} />
           <Route
             path="*"

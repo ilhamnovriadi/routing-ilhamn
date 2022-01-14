@@ -212,3 +212,61 @@ span {
     color: #424242;
   }
 }
+
+.counter-wrap {
+  display: flex;
+  flex-direction: row;
+
+  .con-button {
+    padding-inline: 15px;
+    padding-block: 8px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .con-counter {
+    width: 100px;
+    padding-block: 8px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: #424242;
+  }
+
+  .button-off {
+    background-color: #dfdfdf;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 18px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #dfdfdf;
+    }
+  }
+
+  button {
+    background-color: $orange;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 18px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    font-weight: 700;
+    font-size: 25px;
+
+    &:hover {
+      background-color: $orange-sec;
+    }
+  }
+}
